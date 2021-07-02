@@ -1,0 +1,46 @@
+h1 {
+    color:blue
+}
+p {
+    color:indigo
+}
+ul {
+    color:mediumorchid
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    border: 50px solid black;
+    border-right:thick;
+    padding: 15px;
+}
+
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.o {
+    width:520px;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    padding: 110px;
+    margin: 30px;
+}
